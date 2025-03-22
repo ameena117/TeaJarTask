@@ -145,7 +145,8 @@ $(document).on('ready', function () {
 
   $('.open-chats').magnificPopup({
     type: 'inline',
-    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    midClick: true ,
+    alignPropType: 'center',
   });
 
   var chats = JSON.parse(localStorage.getItem("chats")) || { chat: [] };
