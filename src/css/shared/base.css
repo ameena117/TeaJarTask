@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: var(--font);
+    transition: all 0.5s ease;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img,video,iframe{
+    display: block;
+    max-width: 100%;
+}
+
+a[href]{
+    text-decoration: none;
+}
+i{
+    display: block;
+}

@@ -1,0 +1,94 @@
+.section{
+    max-width: 100%;
+}
+/* padding and margin */
+.section-p {
+    padding: var(--section-gutter) 0;
+}
+
+.section-pb {
+    padding-bottom: var(--section-gutter);
+}
+
+.section-pt {
+    padding-top: var(--section-gutter);
+}
+
+.section-mt {
+    margin: var(--section-gutter) 0;
+}
+
+.section-mx {
+    margin: 0 var(--section-gutter);
+}
+
+/* section components */
+.section-title {
+    font-size: var(--xl-font-size);
+    color: var(--secondary-color);
+}
+
+.section-title span {
+    color: var(--primary-color);
+}
+
+.section-sub-title {
+    font-size: var(--md-font-size);
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-sub-title::after {
+    content: url('../../images/Vector.svg');
+    position: relative;
+    bottom: 10px;
+    left: 5px;}
+
+.section-desc {
+    font-size: var(--sm-font-size);
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.section-content {
+    margin-top: 30px;
+}
+
+.section-footer {
+    margin-top: 30px;
+}
+
+.section-btn {
+    margin-top: 30px;
+}
+
+/* white text  */
+.section.white .section-title {
+    color: var(--light-color);
+}
+
+.section.white .section-sub-title {
+    color: var(--light-color);
+}
+
+.section.white .section-desc {
+    color: var(--light-color);
+}
+
+/* center text */
+.section.center .section-header .section-title {
+    text-align: center;
+}
+
+.section.center .section-header .section-sub-title {
+    text-align: center;
+}
+
+.section.center .section-header .section-desc {
+    text-align: center;
+}
+
+.section.center .section-btn {
+    text-align: center;
+}

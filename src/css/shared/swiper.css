@@ -1,0 +1,25 @@
+:root {
+    --swiper-navigation-size: 12px;
+    --swiper-theme-color: white;
+    --swiper-pagination-top:0;
+    --swiper-pagination-bottom: 0;
+}
+.swiper-slide {
+    height: auto;
+    display: flex;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    color: var(--swiper-theme-color);
+    border-radius: var(--sm-border-radius);
+    border: solid 1px var(--light-color);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: var(--primary-color);
+    background-color: white;
+}

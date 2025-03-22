@@ -1,0 +1,33 @@
+.benefit {
+    border-radius: var(--lg-border-radius);
+    border: 1px solid var(--secondary-color);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.benefit:hover{
+    transform: scale(1.01);
+}
+
+.benefit-img {
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--sm-border-radius);
+    margin-bottom: 15px;
+}
+.benefit-title{
+    font-size: var(--md-font-size);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.benefit-desc{
+    font-size: var(--xs-font-size);
+    color: var(--secondary-color);
+    margin-top: 6px;
+}

@@ -1,0 +1,27 @@
+.industry {
+    flex: 1;
+    aspect-ratio: 0.79/1;
+    border-radius: var(--lg-border-radius);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-color: rgba(var(--dark-color-rgb), 0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.industry:hover {
+    transform: scale(1.01);
+}
+
+.industry-title {
+    color: var(--light-color);
+    font-size: var(--md-font-size);
+    font-weight: bold;
+}
+
+.industry-desc {
+    color: var(--light-color);
+    font-size: var(--sm-font-size);
+    margin-top: 20px;
+}

@@ -1,0 +1,121 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: var(--lg-border-radius);
+    padding: 30px 20px 0px;
+    flex: 1;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.product-icon {
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--sm-border-radius);
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: var(--lg-font-size);
+    font-weight: bold;
+}
+
+.product-desc {
+    font-size: var(--sm-font-size);
+    margin-top: 10px;
+}
+
+.product-img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex: 1;
+}
+
+.product-btn {
+    margin-top: 40px;
+}
+
+/* small product */
+.product.small .product-title {
+    font-size: var(--md-font-size);
+}
+
+.product.small .product-desc {
+    font-size: var(--xs-font-size);
+}
+
+.product.small .product-img {
+    margin-top: 20px;
+}
+
+.product.small .product-btn {
+    margin-top: 20px;
+}
+
+.products .row :nth-child(3n+1) .product {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+.products .row :nth-child(3n+2) .product {
+    color: var(--secondary-color);
+    background-color: rgba(var(--secondary-color-rgb), 0.1);
+}
+
+.product:hover{
+    transform: scale(1.01);
+}
+.products .row :nth-child(3n) .product .product-icon {
+    background-color: var(--light-color);
+}
+
+.products .row :nth-child(3n+1) .product .product-icon {
+    background-color: var(--light-color);
+}
+
+.products .row :nth-child(3n+2) .product .product-icon {
+    background-color: var(--secondary-color);
+}
+
+/* btn outline */
+
+.products .row :nth-child(3n) .product .btn {
+    border: solid 1px var(--light-color);
+    color: var(--light-color);}
+
+.products .row :nth-child(3n+1) .product .btn {
+    border: solid 1px var(--light-color);
+    color: var(--light-color);
+}
+
+.products .row :nth-child(3n+2) .product .btn {
+    border: solid 1px var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+/* btn hover */
+
+.product .btn:hover {
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+}
+
+.products .row :nth-child(3n+1).product .btn:hover {
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+}
+
+.products .row :nth-child(3n+2).product .btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}

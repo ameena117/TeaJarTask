@@ -1,0 +1,24 @@
+.hero-section{
+    max-width: calc(var(--container-width) *1.05);
+    margin: auto;
+    border-radius: var(--lg-border-radius);
+}
+.hero-swiper .swiper-wrapper{
+    margin: auto;
+    display: flex;
+}
+.hero-swiper .swiper-slide{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img img {
+    width: 80%;
+    aspect-ratio: 1/0.6;
+    display: block;
+}

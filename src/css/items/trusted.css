@@ -1,0 +1,22 @@
+.trusted-slide {
+  background-color: var(--light-color);
+  border-radius: var(--md-border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  object-fit: contain;
+}
+
+.trusted-slide:hover {
+  transform: scale(1.01);
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  .trusted-img img {
+    filter: brightness(0) invert(1);
+  }
+}
+.trusted-img img {
+  aspect-ratio: 1 / 0.4;
+  object-fit: contain;
+}
